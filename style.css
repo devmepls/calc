@@ -2,7 +2,7 @@
 .answer{
     max-width: 100%;
     background-color: rgb(152, 195, 202);
-    padding : 20px;
+    padding : 50px;
     display: flex;
     justify-content: flex-end;
     line-height: 50px;
@@ -28,7 +28,7 @@
 }
 .btn-number{
     text-align: center;
-    background-color: silver;
+    background-color:rgb(151, 203, 223);
     width: 100px;
     margin: 10px;
     line-height:35px;
@@ -37,6 +37,7 @@
     
     flex: 1 0 auto;
     flex-basis:25%;
+
 }
 .btn-number:hover{
     cursor: pointer;
