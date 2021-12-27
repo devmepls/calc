@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Comfortaa:wght@600&family=Pacifico&display=swap');
+.answer{
+    max-width: 100%;
+    background-color: rgb(152, 195, 202);
+    padding : 20px;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 50px;
+    margin: 0 450px 0 450px;
+    color:rgb(22, 67, 218);
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive;
+    border-radius:10px;
+
+}
+.buttons{
+    margin: 0 450px 0 450px;
+    
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    
+    
+}
+.btn-number{
+    text-align: center;
+    background-color: silver;
+    width: 100px;
+    margin: 10px;
+    line-height:35px;
+    border-radius: 50px;
+    
+    
+    flex: 1 0 auto;
+    flex-basis:25%;
+}
+.btn-number:hover{
+    cursor: pointer;
+}
